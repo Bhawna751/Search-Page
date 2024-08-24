@@ -1,0 +1,162 @@
+[
+  {
+
+    "companyName": "ABC Manufacturing",
+    "website": "http://abc-manufacturing.com",
+    "location": "India",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses": "3d-Printing"
+  },
+  {
+
+    "companyName": "DEF Creations",
+    "website": "http://def-creations.com",
+    "location": "India",
+    "natureOfBusiness": "medium_scale",
+    "manufacturingProcesses": "casting"
+  },
+  {
+
+    "companyName": "GHI Creations",
+    "website": "http://ghi-creations.com",
+    "location": "Croatia",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses":  "coating"
+  },
+  {
+
+    "companyName": "JKL Manufacturing",
+    "website": "http://jkl-manufacturing.com",
+    "location": "Japan",
+    "natureOfBusiness": "large_scale",
+    "manufacturingProcesses":  "3d-Printing"
+  },
+  {
+
+    "companyName": "MNO Manufacturing",
+    "website": "http://mno-manufacturing.com",
+    "location": "India",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses":  "coating"
+  },
+  {
+
+    "companyName": "PQR Creations",
+    "website": "http://pqr-creations.com",
+    "location": "Argentina",
+    "natureOfBusiness": "large_scale",
+    "manufacturingProcesses":  "moulding"
+  },
+  {
+
+    "companyName": "STU Manufacturing",
+    "website": "http://stu-manufacturing.com",
+    "location": "India",
+    "natureOfBusiness": "medium_scale",
+    "manufacturingProcesses": "3d-Printing"
+  },
+  {
+
+    "companyName": "VWX Creations",
+    "website": "http://vwx-creations.com",
+    "location": "India",
+    "natureOfBusiness": "medium_scale",
+    "manufacturingProcesses": "coating"
+  },
+  {
+
+    "companyName": "YZA Creations",
+    "website": "http://yza-creations.com",
+    "location": "India",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses": "moulding"
+  },
+  {
+
+    "companyName": "BCD Creations",
+    "website": "http://bcd-creations.com",
+    "location": "India",
+    "natureOfBusiness": "large_scale",
+    "manufacturingProcesses":  "3d-Printing"
+  },
+  {
+
+    "companyName": "EFG Creations",
+    "website": "http://efg-creations.com",
+    "location": "India",
+    "natureOfBusiness": "medium_scale",
+    "manufacturingProcesses": "moulding"
+  },
+  {
+
+    "companyName": "HIJ Creations",
+    "website": "http://hij-creations.com",
+    "location": "India",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses":  "coating"
+  },
+  {
+
+    "companyName": "KLM Creations",
+    "website": "http://klm-creations.com",
+    "location": "USA",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses": "coating"
+  },
+  {
+
+    "companyName": "NOP Creations",
+    "website": "http://nop-creations.com",
+    "location": "India",
+    "natureOfBusiness": "medium_scale",
+    "manufacturingProcesses": "casting"
+  },
+  {
+
+    "companyName": "QRS Creations",
+    "website": "http://qrs-creations.com",
+    "location": "India",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses": "3d-Printing"
+  },
+  {
+
+    "companyName": "TUV Creations",
+    "website": "http://tuv-creations.com",
+    "location": "India",
+    "natureOfBusiness": "large_scale",
+    "manufacturingProcesses":  "coating"
+  },
+  {
+
+    "companyName": "WXY Creations",
+    "website": "http://wxy-creations.com",
+    "location": "India",
+    "natureOfBusiness": "medium_scale",
+    "manufacturingProcesses": "casting"
+  },
+  {
+
+    "companyName": "ZAB Creations",
+    "website": "http://zab-creations.com",
+    "location": "India",
+    "natureOfBusiness": "medium_scale",
+    "manufacturingProcesses":  "casting"
+  },
+  {
+
+    "companyName": "CDE Creations",
+    "website": "http://cde-creations.com",
+    "location": "Japan",
+    "natureOfBusiness": "medium_scale",
+    "manufacturingProcesses": "3d-Printing"
+  },
+  {
+
+    "companyName": "FGH Creations",
+    "website": "http://fgh-creations.com",
+    "location": "India",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses": "3d-Printing"
+  }
+]
