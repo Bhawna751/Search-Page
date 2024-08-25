@@ -58,6 +58,7 @@ mvn spring-boot:run
 Once the application is running, you can access the API at:
 
 Base URL: `http://localhost:8080/api/supplier`
+
 -----
 **Example API Requests:**
 
@@ -74,7 +75,24 @@ Body:
     "website": "http://abc-manufacturing.com",
     "location": "India",
     "natureOfBusiness": "small_scale",
-    "manufacturingProcesses": ["3d_printing", "moulding"]
+    "manufacturingProcesses": "3d_printing"
 }
 
 ```
+
+🔍 Search for Suppliers-
+
+To search for suppliers based on location, nature of business, and manufacturing processes:
+
+URL: `http://localhost:8080/api/supplier?page=1&size=5&location=India&natureOfBusiness=small_scale&manufacturingProcesses=3d-Printing,casting,moulding,coating`
+Method: GET
+
+⤵️ Import Data from JSON File-
+
+You can add multiple suppliers from a JSON file using the following endpoint:
+
+URL: `http://localhost:8080/api/supplier/add-from-json?filePath=C:/path/to/suppliers.json`
+Method: POST
+
+
+
