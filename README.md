@@ -70,6 +70,19 @@ URL: `http://localhost:8080/api/supplier/add`
 
 Method: POST
 
+cURL:
+```
+curl --location 'http://localhost:8080/api/supplier/add' \
+--header 'Content-Type: application/json' \
+--data '{
+    "companyName": "JKL Manufacturing",
+    "website": "http://jkl-manufacturing.com",
+    "location": "India",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses": "3d-Printing"
+}'
+```
+
 Body:
 ```
 {
@@ -89,6 +102,11 @@ URL: `http://localhost:8080/api/supplier?page=1&size=5&location=India&natureOfBu
 
 Method: GET
 
+cURL:
+```
+curl --location 'http://localhost:8080/api/supplier?page=1&size=5&location=India&natureOfBusiness=small_scale&manufacturingProcesses=3d-Printing%2Ccasting%2Cmoulding%2Ccoating'
+```
+
 ⤵️ Import Data from JSON File
 ----
 
@@ -96,7 +114,7 @@ You can add multiple suppliers from a JSON file using the following endpoint:
 
 URL: `http://localhost:8080/api/supplier/add-from-json`
 
-curl:
+cURL:
 ```
 curl --location --request POST 'http://localhost:8080/api/supplier/add-from-json'
 ```
