@@ -53,10 +53,28 @@ spring.jpa.hibernate.ddl-auto=update
 mvn clean install
 mvn spring-boot:run
 ```
-**Access the API**
+**Access the API:**
 
 Once the application is running, you can access the API at:
 
 Base URL: `http://localhost:8080/api/supplier`
+-----
+**Example API Requests:**
 
-**Example API Requests**
+➕ Add a Supplier-
+
+To add a supplier, use the following endpoint:
+
+URL: `http://localhost:8080/api/supplier/add`
+Method: POST
+Body:
+```
+{
+    "companyName": "ABC Manufacturing",
+    "website": "http://abc-manufacturing.com",
+    "location": "India",
+    "natureOfBusiness": "small_scale",
+    "manufacturingProcesses": ["3d_printing", "moulding"]
+}
+
+```
