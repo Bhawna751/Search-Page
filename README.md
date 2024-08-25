@@ -31,7 +31,7 @@ Before you begin, ensure you have the following installed on your local machine:
 **Cloning the Repository:**
 ```
 git clone https://github.com/Bhawna751/Search-Page.git
-
+cd demo
 ```
 **Configure the Database:**
 
@@ -39,12 +39,24 @@ Update the application.properties file (located in src/main/resources) with your
 
 ```
 
-spring.datasource.url=jdbc:mysql://localhost:3306/suppliers
+spring.datasource.url=jdbc:mysql://localhost:3306/supplier
 
-spring.datasource.username=your_username
+spring.datasource.username=root
 
-spring.datasource.password=your_password
+spring.datasource.password=root123
 
 spring.jpa.hibernate.ddl-auto=update
 
 ```
+**Build and Run the Application**
+```
+mvn clean install
+mvn spring-boot:run
+```
+**Access the API**
+
+Once the application is running, you can access the API at:
+
+Base URL: `http://localhost:8080/api/supplier`
+
+**Example API Requests**
