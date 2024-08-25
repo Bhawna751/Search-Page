@@ -79,7 +79,6 @@ Body:
     "natureOfBusiness": "small_scale",
     "manufacturingProcesses": "3d_printing"
 }
-
 ```
 🔍 Search for Suppliers
 ----
@@ -96,8 +95,11 @@ Method: GET
 You can add multiple suppliers from a JSON file using the following endpoint:
 
 URL: `http://localhost:8080/api/supplier/add-from-json`
-`curl: curl --location --request POST 'http://localhost:8080/api/supplier/add-from-json'`
 
+curl:
+```
+curl --location --request POST 'http://localhost:8080/api/supplier/add-from-json'
+```
 Method: POST
 
 Replace C:/path/to/suppliers.json with the actual file path on your system.
