@@ -12,4 +12,19 @@ This Spring Boot application provides an API for managing and searching supplier
 
 👉 RESTful API: Exposes endpoints for managing and searching supplier data.
 
+-----
+
+**Prerequisites**
+
+Before you begin, ensure you have the following installed on your local machine:
+
+Java 8 or higher
+
+Maven 3.6 or higher
+
+MySQL 
+
+-----
+
+🤸 **Quick Start:**
 
