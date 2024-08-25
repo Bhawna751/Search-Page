@@ -95,7 +95,8 @@ Method: GET
 
 You can add multiple suppliers from a JSON file using the following endpoint:
 
-URL: `http://localhost:8080/api/supplier/add-from-json?filePath=C:/path/to/suppliers.json`
+URL: `http://localhost:8080/api/supplier/add-from-json`
+`curl: curl --location --request POST 'http://localhost:8080/api/supplier/add-from-json'`
 
 Method: POST
 
